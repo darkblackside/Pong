@@ -5,6 +5,7 @@ public class MoveWithKeyboard : MonoBehaviour
 {
 	public KeyCode KeyUp;
 	public KeyCode KeyDown;
+	public ParticleSystem ps;
 
 	private Vector3 lastPosition;
 	
@@ -26,8 +27,11 @@ public class MoveWithKeyboard : MonoBehaviour
 
 	void OnCollisionEnter (Collision col)
 	{
-		System.Console.WriteLine (col.gameObject.name);
 
 		this.transform.position = lastPosition;
+
+		if (col.gameObject.name.Equals ("Ball")) {
+			ps.Play ();
+		}
 	}
 }

@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\RotateOnCollision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MoveWithKeyboard.cs">
     <Files>
+      <File FileName="Assets\GameController.cs" Line="24" Column="51" />
       <File FileName="Assets\MoveWithKeyboard.cs" Line="27" Column="2" />
-      <File FileName="Assets\GameController.cs" Line="27" Column="50" />
-      <File FileName="Assets\RotateOnCollision.cs" Line="39" Column="5" />
+      <File FileName="Assets\ResetWall.cs" Line="23" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

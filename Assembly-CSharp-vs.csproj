@@ -48,7 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\MoveWithKeyboard.cs" />
-     <Compile Include="Assets\RotateOnCollision.cs" />
+     <Compile Include="Assets\ResetWall.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
